@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Orphan-Domains v2
+message: "If you use this dataset or code, please cite this work."
+type: dataset
+authors:
+  - family-names: Chen
+    given-names: Xueping
+license: MIT
+version: 1.0.0

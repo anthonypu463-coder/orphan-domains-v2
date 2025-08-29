@@ -1,0 +1,13 @@
+name: smoke
+on: [push, pull_request]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repo sanity
+        run: |
+          for f in docs/registered_criteria.md docs/graph_schema.md CITATION.cff dataset.json README.md; do
+            [ -f "$f" ] || { echo "Missing $f"; exit 2; }
+          done
+          echo "Sanity OK"

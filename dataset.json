@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Orphan-Domains v2",
+  "description": "AlphaFold domain dataset with strict orphaning, PAE-aware boundaries, DPAM validation, Foldseek novelty, clean splits, and baselines.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "1.0.0",
+  "creator": [{ "@type": "Person", "name": "Xueping Chen" }]
+}

@@ -1,0 +1,4 @@
+[done] kept=1 dropped=2747195 unique_acc=1
+[out] TSV=data/interim/uniprot_candidates_noPF.tsv
+[out] ACC_LIST=data/interim/accessions.txt
+[summary] data/interim/summary_filter_noPF_clean.txt

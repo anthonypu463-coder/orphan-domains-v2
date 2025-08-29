@@ -1,0 +1,2 @@
+[init] accessions=1  already_ok=0  to_fetch=1  col=Entry
+[done] wrote_ok=1  failed=0  fasta=data/raw/candidates_filtered.fasta

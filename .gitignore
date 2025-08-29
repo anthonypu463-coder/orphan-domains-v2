@@ -1,0 +1,18 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data folders (typically large files not tracked in Git)
+data/raw/
+data/interim/
+data/final/
+
+# Environment / dependency files
+.mamba/
+.conda/
+.venv/
+# (Note: We are not ignoring the 'env/' folder itself, since we'll store config there)
+
+# OS-specific files
+.DS_Store
